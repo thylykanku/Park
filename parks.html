@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@500;600;700&family=REM:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mountains.css" type="text/css">
+    <script src="scripts/nationalParkData.js"></script>
+
+    
+</head>
+<body>
+    <h1 class="title">E.T.O</h1>
+    <h1 class="subtitle"></h1>
+    <div class="center">
+        <p> <a href="./index.html">Home</a> | <a href="./mountains.html">Mountains</a> | <a href="./parks.html">Parks</a></p>
+    </div>
+    <div class="house"></div>
+    <h1>Mountains Search</h1>
+    <div class="house"></div>
+    <!-- <h1>Park Search</h1> -->
+    <select id="locations">
+        <option value="null">Select location...</option>
+    </select>
+    <button id="locationsearch">Submit</button>
+    <div class="mountain" id="resultlist">
+        <p id="results">Choose a location!</p>
+    </div>
+    <br>
+    <br>
+    <select id="parktype">
+        <option value="null">Select park type...</option>
+    </select>
+    <button id="typesearch">Submit</button>
+    <div class="mountain" id="resultlistType">
+        <p id="resultsType">Choose a location, then a park type!</p>
+    </div>
+    <section class="container">
+        <div class="text">
+          <h2>Start exploring & <br> Enjoy your Outdoor!</h2>
+        </div>
+      </section>
+   
+</body>
+</html>
